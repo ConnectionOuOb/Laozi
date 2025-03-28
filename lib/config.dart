@@ -1,7 +1,7 @@
 import 'object.dart';
 
 double factor = 1;
-String tabName = '易方陣';
+String tabName = '老子 道德經';
 List<PopImage> popImages = [
   // ### 1.
   PopImage(483, 405, 200, 260, 'reference/12.jpeg', '果斷決定 穀雨 4月19日:', '天氣較暖，雨量增加，是北方春耕作物播種的好季節，因為有雨水滋潤大地。'),
