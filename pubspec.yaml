@@ -1,5 +1,5 @@
 name: laozi
-description: "道德經"
+description: "道德經通覽圖"
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -24,4 +24,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/
+    - assets/background/
+    - assets/reference/
