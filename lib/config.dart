@@ -1,45 +1,110 @@
 import 'object.dart';
 
 double factor = 1;
-String tabName = '老子 道德經';
+String tabName = '道德經通覽圖';
 List<PopImage> popImages = [
   // ### 1.
-  PopImage(483, 405, 200, 260, 'reference/12.jpeg', '果斷決定 穀雨 4月19日:', '天氣較暖，雨量增加，是北方春耕作物播種的好季節，因為有雨水滋潤大地。'),
-  PopImage(762, 405, 200, 260, 'reference/13.jpeg', '大有可容 清明 4月4日:', '天氣晴朗溫暖，草木始發新枝芽，萬物開始生長，農民忙於春耕春種。人們在門口插上楊柳條，到郊外踏青，以及祭掃墳墓。'),
-  PopImage(1040, 405, 200, 260, 'reference/14.jpeg', '大壯震動 春分 3月20日:', '這一天南北兩半球晝夜相等。大部分地區越冬作物進入春季生長階段'),
-  PopImage(1319, 405, 200, 260, 'reference/15.jpeg', '小處修補 驚蟄 3月5日:', '天氣轉暖，春雷震響，蟄伏在泥土裏的各種冬眠動物蘇醒過來開始活動，大部分地區進入春耕'),
-  PopImage(1597, 405, 200, 260, 'reference/16.jpeg', '需安以待 雨水 2月18日:', '春風遍吹，天氣漸暖，冰雪溶化，空氣濕潤，雨水增多。'),
-  PopImage(1875, 405, 200, 260, 'reference/17.jpeg', '大大整備 立春 2月3日:', '開始進入春天，萬物復蘇。'),
+  PopImage(1355, 305, 600, 90, 'assets/reference/1.1.jpg', '1.1', ''),
+  PopImage(1355, 400, 600, 70, 'assets/reference/1.2.jpg', '1.2', ''),
+  PopImage(1355, 480, 600, 70, 'assets/reference/1.3.jpg', '1.3', ''),
+  PopImage(1355, 570, 600, 70, 'assets/reference/1.4.jpg', '1.4', ''),
+  PopImage(1355, 650, 600, 80, 'assets/reference/1.5.jpg', '1.5', ''),
+  PopImage(1355, 735, 600, 70, 'assets/reference/1.6.jpg', '1.6', ''),
+  PopImage(1355, 820, 600, 80, 'assets/reference/1.7.jpg', '1.7', ''),
 
   // ### 2.
-  PopImage(203, 780, 200, 260, 'reference/21.jpeg', '行動合理 立夏 5月5日:', '溫度明顯升高，雷雨增多，農作物進入生長的旺季，'),
-  PopImage(2150, 780, 200, 260, 'reference/28.jpeg', '面對問題 大寒 1月19日:', '天氣寒冷到了極點，是一年中最冷的時候。'),
+  PopImage(700, 305, 600, 80, 'assets/reference/2.1.jpg', '2.1', ''),
+  PopImage(700, 395, 600, 75, 'assets/reference/2.2.jpg', '2.2', ''),
+  PopImage(700, 475, 600, 90, 'assets/reference/2.3.jpg', '2.3', ''),
+  PopImage(700, 570, 600, 75, 'assets/reference/2.4.jpg', '2.4', ''),
+  PopImage(700, 655, 600, 80, 'assets/reference/2.5.jpg', '2.5', ''),
+  PopImage(700, 740, 600, 75, 'assets/reference/2.6.jpg', '2.6', ''),
+  PopImage(700, 820, 600, 80, 'assets/reference/2.7.jpg', '2.7', ''),
 
   // ### 3.
-  PopImage(203, 1150, 200, 260, 'reference/31.jpeg', '共同合作 小滿 5月20日:', '大麥、冬小麥等夏收作物，已經結果、籽粒飽滿，但尚未成熟。'),
-  PopImage(2150, 1150, 200, 260, 'reference/38.jpeg', '忍受逼迫 小寒 1月5日:', '開始進入寒冷季節。冷氣積久而寒，大部分地區進入嚴寒時期。'),
+  PopImage(2010, 305, 600, 80, 'assets/reference/3.1.jpg', '3.1', ''),
+  PopImage(2010, 390, 600, 100, 'assets/reference/3.2.jpg', '3.2', ''),
+  PopImage(2010, 500, 600, 120, 'assets/reference/3.3.jpg', '3.3', ''),
+  PopImage(2010, 630, 600, 70, 'assets/reference/3.4.jpg', '3.4', ''),
+  PopImage(2010, 710, 600, 100, 'assets/reference/3.5.jpg', '3.5', ''),
+  PopImage(2010, 815, 600, 90, 'assets/reference/3.6.jpg', '3.6', ''),
 
   // ### 4.
-  PopImage(203, 1520, 200, 260, 'reference/41.jpeg', '不妄無災 芒種 6月5日:', '小麥等有芒作物成熟，宜開始秋播，如晚穀、黍、稷等。長江中下游地區將進入黃梅季節，連綿陰雨'),
-  PopImage(2150, 1520, 200, 260, 'reference/48.jpeg', '一陽復始 冬至 12月21日:', '這一天，陽光幾乎直射南回歸線，北半球白晝最短，黑夜最長。'),
+  PopImage(1355, 1005, 600, 90, 'assets/reference/4.1.jpg', '4.1', ''),
+  PopImage(1355, 1110, 600, 90, 'assets/reference/4.2.jpg', '4.2', ''),
+  PopImage(1355, 1210, 600, 90, 'assets/reference/4.3.jpg', '4.3', ''),
+  PopImage(1355, 1310, 600, 90, 'assets/reference/4.4.jpg', '4.4', ''),
+  PopImage(1355, 1410, 600, 90, 'assets/reference/4.5.jpg', '4.5', ''),
+  PopImage(1355, 1510, 600, 90, 'assets/reference/4.6.jpg', '4.6', ''),
 
   // ### 5.
-  PopImage(203, 1890, 200, 260, 'reference/51.jpeg', '陰制於陽 夏至 6月20日:', '陽光直射北回歸線，白天最長。從這一天起，進入炎熱季節，萬物生長最旺盛。'),
-  PopImage(2150, 1890, 200, 260, 'reference/58.jpeg', '隨機浮升 大雪 12月6日:', '黃河流域一帶漸有積雪；而北方已是萬里冰封。'),
+  PopImage(700, 1010, 600, 100, 'assets/reference/5.1.jpg', '5.1', ''),
+  PopImage(700, 1120, 600, 100, 'assets/reference/5.2.jpg', '5.2', ''),
+  PopImage(700, 1235, 600, 200, 'assets/reference/5.3.jpg', '5.3', ''),
+  PopImage(700, 1440, 600, 150, 'assets/reference/5.4.jpg', '5.4', ''),
 
   // ### 6.
-  PopImage(203, 2260, 200, 260, 'reference/61.jpeg', '易起爭訟 小暑 7月6日:', '正值初伏前後，天氣很熱但尚未酷熱，忙於夏秋作物的工作。'),
-  PopImage(2150, 2260, 200, 260, 'reference/68.jpeg', '興師聚眾 小雪 11月21日:', '氣溫下降，黃河流域開始降雪；北方已進入封凍季節。'),
+  PopImage(2010, 1005, 600, 65, 'assets/reference/6.1.jpg', '6.1', ''),
+  PopImage(2010, 1075, 600, 65, 'assets/reference/6.2.jpg', '6.2', ''),
+  PopImage(2010, 1145, 600, 60, 'assets/reference/6.3.jpg', '6.3', ''),
+  PopImage(2010, 1210, 600, 55, 'assets/reference/6.4.jpg', '6.4', ''),
+  PopImage(2010, 1270, 600, 65, 'assets/reference/6.5.jpg', '6.5', ''),
+  PopImage(2010, 1340, 600, 60, 'assets/reference/6.6.jpg', '6.6', ''),
+  PopImage(2010, 1405, 600, 60, 'assets/reference/6.7.jpg', '6.7', ''),
+  PopImage(2010, 1470, 600, 60, 'assets/reference/6.8.jpg', '6.8', ''),
+  PopImage(2010, 1535, 600, 60, 'assets/reference/6.9.jpg', '6.9', ''),
 
   // ### 7.
-  PopImage(203, 2630, 200, 260, 'reference/71.jpeg', '退縮不前 大暑 7月22日:', '正值中伏前後，一年最炎熱時期，喜溫作物迅速生長；雨水甚多。'),
-  PopImage(2150, 2630, 200, 260, 'reference/78.jpeg', '謙沖寡慾 立冬 11月7日:', '冬季開始，一年的田間操作結束，作物收割之後要收藏起來。'),
+  PopImage(2660, 305, 600, 120, 'assets/reference/7.1.jpg', '7.1', ''),
+  PopImage(2660, 440, 600, 125, 'assets/reference/7.2.jpg', '7.2', ''),
+  PopImage(2660, 580, 600, 120, 'assets/reference/7.3.jpg', '7.3', ''),
+  PopImage(2660, 720, 600, 110, 'assets/reference/7.4.jpg', '7.4', ''),
+  PopImage(2660, 850, 600, 130, 'assets/reference/7.5.jpg', '7.5', ''),
+  PopImage(2660, 990, 600, 120, 'assets/reference/7.6.jpg', '7.6', ''),
+  PopImage(2660, 1120, 600, 130, 'assets/reference/7.7.jpg', '7.7', ''),
 
   // ### 8.
-  PopImage(483, 3000, 200, 260, 'reference/82.jpeg', '萃匯人氣 立秋 8月7日:', '秋天開始，氣溫逐漸下降；中部地區早稻收割，晚稻開始移栽。'),
-  PopImage(762, 3000, 200, 260, 'reference/83.jpeg', '柔進上行 處暑 8月22日:', '氣候變涼的象徵，表示暑天終止，夏季火熱已經到了盡頭。'),
-  PopImage(1040, 3000, 200, 260, 'reference/84.jpeg', '順勢豫備 白露 9月7日:', '天氣轉涼，地面水汽結露。'),
-  PopImage(1319, 3000, 200, 260, 'reference/85.jpeg', '多方觀察 秋分 9月22日:', ' 陽光直射赤道，晝夜幾乎相等。北方秋收秋種。'),
-  PopImage(1597, 3000, 200, 260, 'reference/86.jpeg', '彼此靠近 寒露 10月7日:', '天氣轉涼，露水日多。'),
-  PopImage(1875, 3000, 200, 260, 'reference/87.jpeg', '日漸剝落 霜降 10月23日:', '天氣已冷，開始有霜凍。南方仍可秋收秋種'),
+  PopImage(2660, 1360, 600, 150, 'assets/reference/8.1.jpg', '8.1', ''),
+  PopImage(2660, 1550, 600, 150, 'assets/reference/8.2.jpg', '8.2', ''),
+  PopImage(2660, 1730, 600, 150, 'assets/reference/8.3.jpg', '8.3', ''),
+  PopImage(2660, 1925, 600, 180, 'assets/reference/8.4.jpg', '8.4', ''),
+  PopImage(2660, 2115, 600, 150, 'assets/reference/8.5.jpg', '8.5', ''),
+
+  // ### 9.
+  PopImage(1680, 1710, 455, 130, 'assets/reference/9.1.jpg', '9.1', ''),
+  PopImage(1680, 1860, 455, 130, 'assets/reference/9.2.jpg', '9.2', ''),
+  PopImage(1680, 2000, 455, 140, 'assets/reference/9.3.jpg', '9.3', ''),
+  PopImage(1680, 2155, 455, 130, 'assets/reference/9.4.jpg', '9.3', ''),
+  PopImage(2150, 1710, 455, 180, 'assets/reference/9.5.jpg', '9.4', ''),
+  PopImage(2150, 1920, 455, 150, 'assets/reference/9.6.jpg', '9.5', ''),
+  PopImage(2150, 2100, 455, 180, 'assets/reference/9.7.jpg', '9.6', ''),
+
+  // ### 10.
+  PopImage(700, 1710, 455, 130, 'assets/reference/10.1.jpg', '10.1', ''),
+  PopImage(700, 1860, 455, 130, 'assets/reference/10.2.jpg', '10.2', ''),
+  PopImage(700, 2000, 455, 140, 'assets/reference/10.3.jpg', '10.3', ''),
+  PopImage(700, 2160, 455, 130, 'assets/reference/10.4.jpg', '10.3', ''),
+  PopImage(1170, 1710, 455, 130, 'assets/reference/10.5.jpg', '10.4', ''),
+  PopImage(1170, 1860, 455, 130, 'assets/reference/10.6.jpg', '10.5', ''),
+  PopImage(1170, 2000, 455, 230, 'assets/reference/10.7.jpg', '10.6', ''),
+
+  // ### 11.
+  PopImage(45, 305, 600, 120, 'assets/reference/11.1.jpg', '11.1', ''),
+  PopImage(45, 450, 600, 125, 'assets/reference/11.2.jpg', '11.2', ''),
+  PopImage(45, 590, 600, 100, 'assets/reference/11.3.jpg', '11.3', ''),
+  PopImage(45, 720, 600, 120, 'assets/reference/11.4.jpg', '11.4', ''),
+  PopImage(45, 860, 600, 100, 'assets/reference/11.5.jpg', '11.5', ''),
+  PopImage(45, 985, 600, 110, 'assets/reference/11.6.jpg', '11.6', ''),
+  PopImage(45, 1125, 600, 120, 'assets/reference/11.7.jpg', '11.7', ''),
+
+  // ### 12.
+  PopImage(45, 1360, 600, 100, 'assets/reference/12.1.jpg', '12.1', ''),
+  PopImage(45, 1465, 600, 100, 'assets/reference/12.2.jpg', '12.2', ''),
+  PopImage(45, 1570, 600, 100, 'assets/reference/12.3.jpg', '12.3', ''),
+  PopImage(45, 1680, 600, 100, 'assets/reference/12.4.jpg', '12.4', ''),
+  PopImage(45, 1785, 600, 100, 'assets/reference/12.5.jpg', '12.5', ''),
+  PopImage(45, 1890, 600, 100, 'assets/reference/12.6.jpg', '12.6', ''),
+  PopImage(45, 1995, 600, 100, 'assets/reference/12.7.webp', '12.7', ''),
+  PopImage(45, 2100, 600, 90, 'assets/reference/12.8.jpg', '12.8', ''),
+  PopImage(45, 2200, 600, 95, 'assets/reference/12.9.jpg', '12.9', ''),
 ];
